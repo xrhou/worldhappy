@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.happy.dao.IUserInfoDAO">
+    <select id="add" parameterType="UserInfo">
+        insert into userinfo(name,age,email) values(#{name},#{age},#{email})
+    </select>
+
+    <select id="findAllUserInfo" resultType="UserInfo">
+        select * from userinfo where 1=1
+    </select>
+
+</mapper>
