@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by Administrator on 2017/6/2.
+ * Created by houxiurong on 2017/6/2.
  */
 public class UserInfoController implements Controller {
 
